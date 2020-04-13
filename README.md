@@ -32,7 +32,7 @@ $export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’
 
 ```
 
-7. Execute the binary peerconnection_client and provide the inputs <Server IP> and port number 8888 , when prompted
+7. Execute the binary peerconnection_client and provide the inputs [Server IP] and port number 8888 , when prompted
 ```
 $./ peerconnection_client
 ```
@@ -57,7 +57,7 @@ $cd <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default
 $export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’
 
 ```
-5. Execute the binary peerconnection_client and provide the inputs <Server IP> and port number 8888 , when prompted the gtk window
+5. Execute the binary peerconnection_client and provide the inputs [Server IP] and port number 8888 , when prompted the gtk window
 ```
 $./ peerconnection_client
 ```
