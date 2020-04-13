@@ -2,7 +2,7 @@
 
 The PC Streamer has the patches, prerequisites and steps for testing PC based webrtc streamer using webcam. Instructions added for running peer connection application in two different ubuntu PCs, with webcam connected to one PC. These instructions will get you a copy of the webrtc project code [WebRTC 72 branch checkout] - trimmed for single side streaming, compiled and binaries executed to view the webcam's output in the second PC.
 
-## Instructions set up PC streamer (gtk trimmed client with webcam)
+## Instructions to set up PC streamer (gtk trimmed client with webcam)
 
 1. git clone (https://github.com/rdkcteam/native-webrtc)
 2. Move to folder  <local_path>/native-webrtc/PC_Streamer
@@ -38,7 +38,7 @@ $./ peerconnection_client
 ```
 
 
-## Instructions set up Viewing side (gtk window application)
+## Instructions to set up Viewing side (gtk window application)
 1. git clone (https://github.com/rdkcteam/native-webrtc)
 2. Move to folder  <local_path>/native-webrtc/PC_Streamer
 ```
