@@ -16,8 +16,7 @@ $sudo chmod +x webrtc_cam.sh
 ```
 ./webrtc_cam.sh
 ```
--connect webcam 
-4. Take a terminal and move to <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default
+4. Connect webcam, take a terminal and move to <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default
 ```
 cd <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default
 ```
@@ -35,43 +34,33 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’
 
 7. Execute the binary peerconnection_client and provide the inputs <Server IP> and port number 8888 , when prompted
 ```
-./peerconnection_client
+./ peerconnection_client
 ```
 
 
 ## Instructions set up Viewing side (gtk window application)
 
-1. git clone (https://github.com/rdkcteam/native-webrtc)to one ubuntu PC
-2. Move to the Folder "PC_Streamer" in the local repository
+2. Move to folder  <local_path>/native-webrtc/PC_Streamer
 ```
-cd path to PC_Streamer
+cd <local_path>/native-webrtc/PC_Streamerr
 ````
 ```
-$sudo chmod +x webrtc_browser.sh
+$sudo chmod +x webrtc_cam.sh
 ```
-3. Execute the script **webrtc_browser.sh** to install client with gtk window for displaying video
+3. Execute the script webrtc_browser.sh to download webrtc code, compile and install client binaries for viewing side with gtk window
 ```
 ./webrtc_browser.sh
 ```
-4. Move to out/Default folder of webrtc checkout directory
+4. move to <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default and export library path first
 ```
-cd wertc-checkout/out/Defaults
-```
-5. Export library path as path to **webrtc-checkout/out/Defaults**
-```
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’(Export path to /out/Defaults)
-```
-6. Run the peer connection client executable
-```
-./peerconnection_client
-```
-7. Verify gtk window for entering server address and port will display
+cd <local_path>/native-webrtc/PC_Streamer/webrtc-checkout/out/Default
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’
 
-8. Enter the server hosting’s machine IP and listening port to that GTK window.
-
-9. Click on connect button.
-
-10. Double click on the peer name list down in the window.
-
-11. Verify that video captured by the webcam  display in the remote GTK window.
+```
+5. Execute the binary peerconnection_client and provide the inputs <Server IP> and port number 8888 , when prompted the gtk window
+```
+./ peerconnection_client
+```
+6. Press connect button and double click on the peer name list down in the window.
+7. Verify that video captured by the webcam display in the remote GTK window.
 
