@@ -5,15 +5,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Instructions set up PC streamer(gtk trimmed client with webcam)
 
--git clone(https://github.com/rdkcteam/native-webrtc)to one ubuntu PC
--Move to the Folder "PC_Streamer" in the local repository
+1git clone(https://github.com/rdkcteam/native-webrtc)to one ubuntu PC
+2Move to the Folder "PC_Streamer" in the local repository
 ```
 cd path to PC_Streamer
 ````
 ```
 $sudo chmod +x webrtc_cam.sh
 ```
--Execute the script **webrtc_cam.sh** to install gtk trimmed client
+3Execute the script **webrtc_cam.sh** to install gtk trimmed client
 ```
 ./webrtc_cam.sh
 ```
