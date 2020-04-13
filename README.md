@@ -1,4 +1,4 @@
-# RDKC-WebRTC Integration
+# WebRTC PC Streamer
 
 Release Source Code [WebRTC 72 branch checkout], prerequisite and steps for testing PC based streamer using webcam. Instructions for running Peer connection application in two different ubuntu PC as given below.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
