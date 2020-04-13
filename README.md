@@ -1,7 +1,6 @@
 # WebRTC PC Streamer
 
-Release Source Code [WebRTC 72 branch checkout], prerequisite and steps for testing PC based streamer using webcam. Instructions for running Peer connection application in two different ubuntu PC as given below.
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+The PC Streamer has the patches, prerequisites and steps for testing PC based webrtc streamer using webcam. Instructions added for running peer connection application in two different ubuntu PCs, with webcam connected to one PC. These instructions will get you a copy of the webrtc project code [WebRTC 72 branch checkout] - trimmed for single side streaming, compiled and binaries executed to view the webcam's output in the second PC.
 
 ## Instructions set up PC streamer (gtk trimmed client with webcam)
 
