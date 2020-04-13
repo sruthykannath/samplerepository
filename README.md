@@ -71,7 +71,11 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:’pwd’(Export path to /out/Defaults)
 ./peerconnection_client
 ```
 -Verify gtk window for enering server address and port will display
+
 -Enter the server hosting’s machine IP and listening port to that GTK window.
+
 -Click on connect button.
+
 -Double click on the peer name list down in the window
+
 -Verify the video captured by the webcam connected in another PC display in the GTK window.
